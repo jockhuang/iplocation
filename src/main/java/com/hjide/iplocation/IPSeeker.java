@@ -97,12 +97,7 @@ public class IPSeeker {
     public String getIPAdress(String ip){
         IPLocation ipLocation = getIPLocation(ip);
         String country = ipLocation.getCountry();
-        if(country != null && country.length() > 1){
-            String temp = country.substring(0,2);
-            if(IPLocationUtil.provinceMap.containsKey(temp)){
-                country = IPLocationUtil.provinceMap.get(temp).toString();
-            }
-        }
+       
         String address = country ;
         return address.trim();
     }

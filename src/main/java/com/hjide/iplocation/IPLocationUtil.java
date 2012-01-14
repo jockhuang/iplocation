@@ -21,43 +21,6 @@ public class IPLocationUtil {
     
     public static Logger logger = Logger.getLogger(IPLocationUtil.class);
     
-    public static Map<String,String> provinceMap  = new HashMap<String,String>();
-    static{
-        provinceMap.put("北京","北京");
-        provinceMap.put("天津","天津");
-        provinceMap.put("河北","河北");
-        provinceMap.put("山东","山东");
-        provinceMap.put("山西","山西");
-        provinceMap.put("河南","河南");
-        provinceMap.put("湖北","湖北");
-        provinceMap.put("辽宁","辽宁");
-        provinceMap.put("吉林","吉林");
-        provinceMap.put("黑龙","黑龙江");
-        provinceMap.put("内蒙","内蒙古");
-        provinceMap.put("上海","上海");
-        provinceMap.put("江苏","江苏");
-        provinceMap.put("浙江","浙江");
-        provinceMap.put("安徽","安徽");
-        provinceMap.put("广东","广东");
-        provinceMap.put("广西","广西");
-        provinceMap.put("福建","福建");
-        provinceMap.put("湖南","湖南");
-        provinceMap.put("江西","江西");
-        provinceMap.put("海南","海南");
-        provinceMap.put("台湾","台湾");
-        provinceMap.put("香港","香港");
-        provinceMap.put("澳门","澳门");
-        provinceMap.put("四川","四川");
-        provinceMap.put("重庆","重庆");
-        provinceMap.put("陕西","陕西");
-        provinceMap.put("贵州","贵州");
-        provinceMap.put("云南","云南");
-        provinceMap.put("西藏","西藏");
-        provinceMap.put("甘肃","甘肃");
-        provinceMap.put("青海","青海");
-        provinceMap.put("宁夏","宁夏");
-        provinceMap.put("新疆","新疆");
-    }
     
     /**
      * 将Classpath下文件转为Byte数组
